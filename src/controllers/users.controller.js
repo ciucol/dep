@@ -11,4 +11,13 @@ router.get('/', (req, res) => {
   })
 })
 
+router.get('/saludo', (req, res) => {
+  console.log('a')
+  res.json({
+    status: 'success',
+    message: 'Otro saludo',
+    error: 'null',
+  })
+})
+
 module.exports = router
