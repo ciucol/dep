@@ -20,4 +20,13 @@ router.get('/saludo', (req, res) => {
   })
 })
 
+router.get('/despedida', (req, res) => {
+  console.log('a')
+  res.json({
+    status: 'success',
+    message: 'Chao, se acabó =( 😔',
+    error: 'null',
+  })
+})
+
 module.exports = router
