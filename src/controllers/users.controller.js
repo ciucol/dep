@@ -24,7 +24,7 @@ router.get('/despedida', (req, res) => {
   console.log('a')
   res.json({
     status: 'success',
-    message: 'Chao, se acabó =( 😔',
+    message: 'Chao, se acabó 😔 en qa',
     error: 'null',
   })
 })
